@@ -84,9 +84,10 @@
     }
     p {
       margin-bottom: 30px;
+      @include heading-font;
     }
     p.item-intro {
-      font-size: 16px;
+      font-size: 20px;
       font-style: italic;
       margin: 20px 0 30px;
       @include serif-font;
@@ -94,6 +95,8 @@
     ul.list-inline {
       margin-top: 0;
       margin-bottom: 30px;
+      font-size: 18px;
+      @include serif-font;
     }
     img {
       margin-bottom: 30px;
@@ -101,6 +104,13 @@
     button {
       cursor: pointer;
     }
+    .project-bullets {
+      @include heading-font;
+    }
+    .project-bullets > li {
+      margin: 20px 0;
+    }
+
   }
   .close-modal {
     position: absolute;

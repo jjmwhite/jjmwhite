@@ -1,5 +1,16 @@
 // Styling for the services section
 .service-heading {
-  margin: 15px 0;
+  margin: 20px 0;
   text-transform: none;
+  font-size: 1.3em;
+}
+
+.redux {
+  position: relative;
+  max-width: 65px;
+  top: -10px;
+}
+
+.circles {
+  margin-top: 20px;
 }

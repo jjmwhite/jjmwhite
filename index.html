@@ -15,6 +15,7 @@
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -30,7 +31,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Jessica White</a>
+      <a class="navbar-brand js-scroll-trigger nav-name" href="#page-top">Jessica White</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -38,7 +39,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
@@ -55,15 +56,15 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Full Stack Software Engineer</div>
         <div class="intro-heading text-uppercase">Jessica White</div>
-        <a class="btn btn-primary btn-xl text-uppercase" href="#">Resume</a>
+        <div class="intro-lead-in subtitle">Full Stack Software Engineer</div>
+        <a class="btn btn-primary btn-xl text-uppercase" target="_blank" href="/img/Jessica_White_Resume.pdf">Resume</a>
       </div>
     </div>
   </header>
 
-  <!-- Services -->
-  <section class="page-section" id="services">
+  <!-- Skills -->
+  <section class="page-section" id="skills">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -72,85 +73,88 @@
         </div>
       </div>
       <div class="row text-center">
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x circles">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fab fa-react fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">React</h4>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x circles">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            <img class="redux" 
+            src="img/redux_smaller.png"
+            style="position: relative; max-width: 65px; top: -10px;"
+            ></a>
           </span>
           <h4 class="service-heading">Redux</h4>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x circles">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fab fa-js fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">JavaScript</h4>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x circles">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fab fas fa-gem fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Ruby</h4>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x circles">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            <i class="devicon-rails-plain fa-stack-1x fa-inverse" style="position: relative"></i>
           </span>
           <h4 class="service-heading">Rails</h4>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x circles">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-database fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">SQL</h4>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x circles">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            <i class="devicon-postgresql-plain fa-stack-1x fa-inverse" style="position: relative"></i>
           </span>
           <h4 class="service-heading">postgreSQL</h4>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x circles">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fab fa-aws fa-stack-1x fa-inverse"></i>
+            <i class="devicon-amazonwebservices-original fa-stack-1x fa-inverse" style="position: relative"></i>
           </span>
           <h4 class="service-heading">AWS S3</h4>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x circles">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fab fa-html5 fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">HTML5</h4>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x circles">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fab fa-css3-alt fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">CSS3</h4>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x circles">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            <i class="devicon-webpack-plain fa-stack-1x fa-inverse" style="position: relative"></i>
           </span>
           <h4 class="service-heading">Webpack</h4>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+        <div class="col-md-3">
+          <span class="fa-stack fa-4x circles">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fab fa-adobe fa-stack-1x fa-inverse"></i>
           </span>
@@ -163,15 +167,15 @@
   <!-- Portfolio Grid -->
   <section class="bg-light page-section" id="portfolio">
     <div class="container">
-      <div class="row">
+      <div class="row" style="justify-content: center">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Projects</h2>
           <h3 class="section-subheading text-muted">Where my code and creativity come together.</h3>
         </div>
       </div>
-      <div class="row">
+      <div class="row" style="justify-content: center">
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -185,13 +189,13 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/screenshot_with_hover.png" alt="Explore Lexi">
+            <img class="img-fluid" src="img/portfolio/lexi.gif" alt="Explore Lexi">
           </a>
           <div class="portfolio-caption">
             <h4>Lexi: Visual Thesaurus</h4>
@@ -202,126 +206,14 @@
     </div>
   </section>
 
-  <!-- About -->
-  <!-- <section class="page-section" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="timeline">
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2009-2011</h4>
-                  <h4 class="subheading">Our Humble Beginnings</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>March 2011</h4>
-                  <h4 class="subheading">An Agency is Born</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 class="subheading">Transition to Full Service</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 class="subheading">Phase Two Expansion</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- Team -->
+  <!-- Contact -->
   <section class="page-section" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Let's Work Together</h2>
-          <!-- <h3 class="section-subheading text-muted">Let's work together.</h3> -->
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/Profile sq_BW2_smaller.jpg" alt="Meet Jessica White">
-            <h4>Jessica White</h4>
-            <p class="text-muted">Software Engineer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/jessicajmwhite/" alt="Connect on LinkedIn">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://angel.co/jessica-jm-white" alt="Connect on AngelList">
-                  <i class="fab fa-angellist"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/jjmwhite" alt="Connect on GitHub">
-                  <i class="fab fa-github"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="mailto: jessica.jm.white@gmail.com" alt="Send an email">
-                  <i class="far fa-envelope"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
           <p class="large text-muted">As a full stack web developer with experience in JavaScript, React, and Ruby on Rails, I thrive at the crux of creativity
@@ -329,55 +221,45 @@
           collaborative environments. In my spare time, I perform and teach dances of the American Jazz Era.</p>
         </div>
       </div>
-      <div class="row">
-        <a class="btn btn-primary btn-xl text-uppercase" href="#">Resume</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Jessica White 2019</span>
+      <div class="row" style="justify-content: center">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/Profile sq_BW2_smaller.jpg" alt="Meet Jessica White">
+            <h4>Jessica White</h4>
+            <p class="text-muted">  </p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/jessicajmwhite/" target="_blank" alt="Connect on LinkedIn">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://angel.co/jessica-jm-white" target="_blank" alt="Connect on AngelList">
+                  <i class="fab fa-angellist"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/jjmwhite" target="_blank" alt="Connect on GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="mailto: jessica.jm.white@gmail.com" target="_blank" alt="Send an email">
+                  <i class="far fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-          </ul>
-        </div> -->
-        <!-- <div class="col-md-4">
-          <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-          </ul>
-        </div> -->
       </div>
-    </div>
-  </footer>
+      <div class="row" style="justify-content: center">
+        <a class="btn btn-primary btn-xl text-uppercase" target="_blank" href="/img/Jessica_White_Resume.pdf">Resume</a>
+      </div>
+  </section>
 
   <!-- Portfolio Modals -->
   <!-- Spirited Modal -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -392,17 +274,17 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Spirited</h2>
                 <p class="item-intro text-muted">Built using React, Redux, JavaScript, Ruby on Rails, HTML5 , CSS3, Webpack, AWS S3, postgreSQL, and Heroku</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/user_auth.gif" alt="Spirited homepage">
-                <p>Lets users review their favorite Scotch whiskies, read other users’ tasting notes, add bottles to the inventory, and
-                search the database to discover new spirits</p>
-                <ul>
-                  <li>Developed reusable React components to create a scalable single-page app with a unified aesthetic, including bottle previews and star ratings that reflect average user ratings in real time</li>
-                  <li>Harnessed Redux single-state management to streamline communication with React components and implement full CRUD functionality, letting users update their bottles and reviews seamlessly</li>
-                  <li>Optimized database requests using jBuilder API endpoints and strong Rails associations to eliminate potential n+1 queries, maximizing website performance and efficiency</li>
-                </ul>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/spirited_homepage.png" alt="Spirited homepage">
                 <ul class="list-inline">
                   <li><a href="https://spirited-app.herokuapp.com/#/">Live Site</a></li>
                   <li><a href="https://github.com/jjmwhite/SpiritedApp">GitHub</a></li>
+                </ul>
+                <p>Lets users review their favorite Scotch whiskies, read other users’ tasting notes, add bottles to the inventory, and
+                  search the database to discover new spirits</p>
+                <ul class="project-bullets">
+                  <li>Developed reusable React components to create a scalable single-page app with a unified aesthetic, including bottle previews and star ratings that reflect average user ratings in real time</li>
+                  <li>Harnessed Redux single-state management to streamline communication with React components and implement full CRUD functionality, letting users update their bottles and reviews seamlessly</li>
+                  <li>Optimized database requests using jBuilder API endpoints and strong Rails associations to eliminate potential n+1 queries, maximizing website performance and efficiency</li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -416,7 +298,7 @@
   </div>
 
   <!-- Lexi Modal -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -432,17 +314,17 @@
                 <h2 class="text-uppercase">Lexi: Visual Thesaurus</h2>
                 <p class="item-intro text-muted">Built using JavaScript, D3, HTML5, CSS3, and Webpack</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/screenshot_with_hover.png" alt="">
-                <p>Enables users to trace a clear visual and verbal path from a root word through a growing network of synonyms.</p>
-                <ul>
+                <ul class="list-inline">
+                  <li><a href="https://jjmwhite.github.io/Lexi/">Live Site</a></li>
+                  <li><a href="https://github.com/jjmwhite/Lexi">GitHub</a></li>
+                </ul>
+                <p>Trace a clear visual and verbal path from a root word through a growing network of synonyms.</p>
+                <ul class="project-bullets">
                   <li>Integrated a remote API and parsed incoming data so that synonyms will always populate within the scope of the selected
                   word’s part of speech</li>
                   <li>Visualized data using the D3 library for DOM manipulation, resulting in an intuitive user experience with a clean,
                   minimalist design</li>
                   <li>Incorporated a modal that detects screen size on loading to prevent access on mobile devices</li>
-                </ul>
-                <ul class="list-inline">
-                  <li><a href="https://jjmwhite.github.io/Lexi/">Live Site</a></li>
-                  <li><a href="https://github.com/jjmwhite/Lexi">GitHub</a></li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
